@@ -1,17 +1,5 @@
 import streamlit as st
 
-# Custom CSS to style the iframe
-iframe_style = """
-    <style>
-        .responsive-iframe {
-            width: 50%;
-            height: 70vh; /* Adjust this value as needed */
-        }
-    </style>
-"""
-
-# Display the custom CSS
-st.markdown(iframe_style, unsafe_allow_html=True)
 
 # Center-aligned title
 st.markdown("<h1 style='text-align: center;'>حي العمور</h1>", unsafe_allow_html=True)
