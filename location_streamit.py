@@ -6,7 +6,7 @@ iframe_style = """
     <style>
         .responsive-iframe {
             width: 70%;
-            height: 170vh; /* Adjust this value as needed */
+            height: 50vh; /* Adjust this value as needed */
         }
     </style>
 """
