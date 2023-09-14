@@ -4,7 +4,7 @@ import streamlit as st
 iframe_style = """
     <style>
         .responsive-iframe {
-            width: 100%;
+            width: 50%;
             height: 70vh; /* Adjust this value as needed */
         }
     </style>
