@@ -2,14 +2,6 @@
 import streamlit as st
 
 # Custom CSS to style the iframe
-iframe_style = """
-    <style>
-        .responsive-iframe {
-            width: 50%;
-            height: 50%; /* Adjust this value as needed */
-        }
-    </style>
-"""
 
 # Display the custom CSS
 st.markdown(iframe_style, unsafe_allow_html=True)
