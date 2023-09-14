@@ -1,14 +1,5 @@
 import streamlit as st
 
-place = pd.DataFrame({
-    'lat': [32.2154437],
-    'lon':[35.7808215]
-    })
-
-st.map(place) 
-
-
-
 title_style = """
     <style>
         .title {
